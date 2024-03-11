@@ -19,4 +19,6 @@ SELECT * FROM `students` WHERE `date_of_birth` >= '1990-01-01' AND `date_of_birt
  SELECT * FROM `degrees` WHERE `name` LIKE '%magistrale%';
  
  7. Da quanti dipartimenti è composta l'università? (12)
+ SELECT * FROM `departments` WHERE `id` >= '1';
+
  8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
