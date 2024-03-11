@@ -22,3 +22,4 @@ SELECT * FROM `students` WHERE `date_of_birth` >= '1990-01-01' AND `date_of_birt
  SELECT * FROM `departments` WHERE `id` >= '1';
 
  8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
+ SELECT * FROM `teachers` WHERE `phone` IS null;
